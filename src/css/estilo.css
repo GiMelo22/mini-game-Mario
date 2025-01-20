@@ -1,0 +1,103 @@
+
+.center{
+background: linear-gradient(#87ceeb, #E0F6FF);
+width: 100%;
+}
+
+.game{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+button{
+    background-color: #31da31;
+    color: rgb(255, 254, 237);
+    font-family: 'mariofontes',  Courier, monospace; 
+    padding: 1.5rem;
+    position: absolute;
+    right: 50%; 
+    /*transform: translateX(50%); */
+    justify-items: center;
+    transform: translate(100px, 450px);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgb(6, 121, 15) 1px 1px 9px 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+border: 2px solid green
+ 
+}
+
+.Gamer-Over {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.322);
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Gamer-Over h1{
+    font-size: 7rem;
+    color: rgb(177, 86, 86);
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.cano{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;  
+    
+    
+}
+
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 60px;
+    
+}
+
+.nuvem{
+    width: 500px;
+    position: absolute;
+    top: 0%;
+}
+
+
+.chao-1{
+   height:  90px;
+   position: absolute;
+   bottom: 0;
+   left: 0px;
+   z-index: 2;
+}
+
+.chao-2{
+    height:  90px;
+    position: absolute;
+    bottom: 0;
+    left: 690px;
+    z-index: 2;
+ }
+
+ 
+.chao-3{
+    height:  90px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 2;
+}

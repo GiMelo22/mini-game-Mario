@@ -1,0 +1,54 @@
+.nuvem{
+    animation: nuvem-animation 20s infinite linear;
+}
+@keyframes nuvem-animation{
+    from {
+        right: -400px;   
+      }
+      to  {
+       right: 100%;
+          }
+}
+
+.cano-animação{
+animation: cano-animação 2s infinite linear;  
+} 
+
+
+@keyframes cano-animação {
+from {
+  right: -80px;   
+}
+to  {
+ right: 100%;
+    }
+}
+
+
+.jump{
+    animation: mario-animação 500ms ease-in-out;
+}
+
+
+@keyframes mario-animação {
+ 
+    /*inicio */ 0%{
+    bottom:60px;
+     }
+ 
+    40%{
+        bottom: 200px;
+    }     
+    /*meio */ 50%{
+    bottom: 200px;
+    }       
+
+    60%{
+        bottom: 200px;
+    }     
+
+    /* fim */ 100%{
+    bottom: 60px;
+
+    }
+}
